@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Arial MT';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/ofont.ru_Arial.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Arial - Italic MT';
+  font-weight: normal;
+  font-style: italic;
+  src: url(../fonts/ofont.ru_Arial_italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Georgia';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/Georgia.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Times New Roman PSMT';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/times-new-roman-cyr.ttf) format('truetype');
+}
+
+@mixin arial {
+  font-family: 'Arial MT', sans-serif;
+}
+
+@mixin italic {
+  font-family: 'Arial - Italic MT', sans-serif;
+}
+
+@mixin georgia {
+  font-family: 'Georgia', sans-serif;
+}
+
+@mixin tnr {
+  font-family: 'Times New Roman PSMT', sans-serif;
+}

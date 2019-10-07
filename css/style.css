@@ -1,5 +1,95 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  max-width: 1170px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Arial MT';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/ofont.ru_Arial.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Arial - Italic MT';
+  font-weight: normal;
+  font-style: italic;
+  src: url(../fonts/ofont.ru_Arial_italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Georgia';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/Georgia.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Times New Roman PSMT';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/times-new-roman-cyr.ttf) format("truetype");
+}
+
+body {
+  font-family: 'Arial MT', sans-serif;
+}
+
+.navbar__logo {
+  float: left;
+  margin-top: 60px;
+}
+
+.navbar__menu {
+  margin-top: 77px;
+  float: right;
+}
+
+.logo__text {
+  display: block;
+  font-size: 32px;
+  color: #f1cdb3;
+  letter-spacing: 1.13px;
+  margin-bottom: 8px;
+  line-height: 32px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.logo__description {
+  display: block;
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 1.3px;
+}
+
+.menu_wrap {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.menu_wrap:hover .menu__link {
+  color: #fff;
+}
+
+.menu_wrap:hover .menu__underline {
+  display: block;
+}
+
+.menu__link {
+  display: block;
+  text-decoration: none;
+  color: #cdcdcd;
+  font-size: 15px;
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+
+.menu__underline {
+  display: none;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #f1cdb3;
 }
 /*# sourceMappingURL=style.css.map */
