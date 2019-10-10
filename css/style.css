@@ -147,4 +147,46 @@ body {
   padding: 18px 44px 21px;
   border: none;
 }
+
+.about {
+  background-color: #fafafa;
+  padding: 90px 0;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__content-block {
+  vertical-align: text-bottom;
+  margin-left: 120px;
+}
+
+.about__title {
+  display: block;
+  color: #545454;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 2.1px;
+  margin-bottom: 27px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.about__subtitle {
+  display: block;
+  color: #4c4c4c;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Arial MT', sans-serif;
+  margin-top: 0;
+}
 /*# sourceMappingURL=style.css.map */
