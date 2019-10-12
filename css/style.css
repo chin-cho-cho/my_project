@@ -151,7 +151,7 @@ body {
 .header {
   min-height: 925px;
   background-color: #000;
-  background: url("../img/hero/Dog.png") 100% 0% no-repeat, url("../img/hero/Background.jpg") 50% 0% no-repeat;
+  background: url("../img/hero/Dog.png") 100% 0% no-repeat, url("../img/hero/Background.jpg") 0% 0% no-repeat;
   background-size: contain, cover;
 }
 
@@ -419,5 +419,71 @@ body {
   line-height: 18px;
   margin: 0;
   font-family: 'Arial - Italic MT', sans-serif;
+}
+
+.footer {
+  min-height: 362px;
+  background-color: #000;
+  background: url("../img/footer/footer-bg.jpg") 0% 0% no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.footer__container {
+  min-height: 362px;
+  position: relative;
+}
+
+.footer__title {
+  display: block;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer__title-visit {
+  margin-bottom: 22px;
+}
+
+.footer__text-block {
+  margin-bottom: 34px;
+}
+
+.footer__text-block-street {
+  margin-bottom: 18px;
+}
+
+.footer__text-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.footer__subtitle {
+  display: inline-block;
+  color: #f1cdb3;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1.2px;
+  vertical-align: middle;
+  font-family: 'Times New Roman PSMT', sans-serif;
+}
+
+.footer__image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer__list {
+  max-width: 742px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
